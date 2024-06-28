@@ -21,4 +21,4 @@ setup(
 
 # Testing 1
 # Release v0.2.0
-# Release v0.3.0
+# Release v1.0.0

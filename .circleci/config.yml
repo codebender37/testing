@@ -1,0 +1,36 @@
+version: 2.1
+
+jobs:
+  release:
+    docker:
+      - image: circleci/python:3.8
+    steps:
+      - checkout
+      - run:
+          name: Install Node.js
+          command: |
+            curl -sL https://deb.nodesource.com/setup_14.x | bash -
+            apt-get install -y nodejs
+      - run:
+          name: Install semantic-release
+          command: |
+            npm install -g semantic-release @semantic-release/changelog @semantic-release/git @semantic-release/commit-analyzer @semantic-release/release-notes-generator @semantic-release/github
+      - run:
+          name: Verify GH_TOKEN
+          command: |
+            echo "GH_TOKEN is set to: $GH_TOKEN"
+      - run:
+          name: Run semantic release
+          command: |
+            semantic-release
+
+workflows:
+  version: 2
+  release:
+    jobs:
+      - release
+
+parameters:
+  GH_TOKEN:
+    type: env_var
+    default: GH_TOKEN

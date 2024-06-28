@@ -1,3 +1,17 @@
+# [1.0.0](https://github.com/codebender37/testing/compare/v0.2.0...v1.0.0) (2024-06-28)
+
+
+### Features
+
+* added a new feature via cz ([1aa95bc](https://github.com/codebender37/testing/commit/1aa95bc0f0c426d2374f5885a5605dc2dcdd18ad))
+
+
+### BREAKING CHANGES
+
+* this is breaking changes
+
+fix #test
+
 # [0.2.0](https://github.com/codebender37/testing/compare/v0.1.0...v0.2.0) (2024-06-28)
 
 

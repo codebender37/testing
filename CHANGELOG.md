@@ -1,3 +1,17 @@
+# [1.2.0](https://github.com/codebender37/testing/compare/v1.1.0...v1.2.0) (2024-06-28)
+
+
+### Bug Fixes
+
+* added fix 3 ([6df1d48](https://github.com/codebender37/testing/commit/6df1d486bfa06076a14ddee68b1b4d81e1f0e106))
+* added fix 4 ([5e535fa](https://github.com/codebender37/testing/commit/5e535fa4329f67d352363840bbaacf5670a1e26b))
+* added fix 5 ([13583c5](https://github.com/codebender37/testing/commit/13583c5371b06d3e0176302c979775344a2a359c))
+
+
+### Features
+
+* added feature ([00d1f70](https://github.com/codebender37/testing/commit/00d1f70b5d8e720c1c070ca08aef03f03bb89835))
+
 # [1.1.0](https://github.com/codebender37/testing/compare/v1.0.0...v1.1.0) (2024-06-28)
 
 

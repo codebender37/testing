@@ -20,3 +20,4 @@ setup(
 )
 
 # Testing 1
+# Release v0.2.0

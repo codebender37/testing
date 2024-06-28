@@ -23,4 +23,5 @@ setup(
 # Release v0.2.0
 # Release v1.0.0
 # add fix
-# add feature
+# add feature without feat
+# add feature with feat

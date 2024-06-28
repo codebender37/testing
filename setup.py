@@ -12,7 +12,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="testing-package",
-    version="0.0.1",
+    version="3.2.0",
     packages=find_packages(),
     install_requires=[
         "requests",
@@ -31,5 +31,5 @@ setup(
 # normal commit
 # add fix 4
 
-# add fix 5 
-
+# add fix 5
+# add feature

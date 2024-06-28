@@ -27,3 +27,4 @@ setup(
 # add feature with feat
 # add fix 2
 # ready to release
+# add fix 3

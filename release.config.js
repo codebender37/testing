@@ -1,5 +1,5 @@
 module.exports = {
-  branches: ["main"],
+  branches: ["main"], // specifies which branches semantic-release should consider for making releases
   plugins: [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
@@ -7,7 +7,7 @@ module.exports = {
     [
       "@semantic-release/git",
       {
-        assets: ["CHANGELOG.md", "test/__init__.py", "setup.py"],
+        assets: ["CHANGELOG.md"],
         message:
           "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}",
       },

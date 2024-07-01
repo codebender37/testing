@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/codebender37/testing/compare/v1.2.0...v1.3.0) (2024-07-01)
+
+
+### Features
+
+* **asdf:** asdf ([c12ba8a](https://github.com/codebender37/testing/commit/c12ba8aadcbd2a93a83f38ddff752870d69a6608))
+
 # [1.2.0](https://github.com/codebender37/testing/compare/v1.1.0...v1.2.0) (2024-06-28)
 
 
